@@ -26,6 +26,17 @@
 
 ## ☕ on the workbench
 
+### [Packetfin](https://github.com/chiranjeevi-max/packetfin)
+
+A Rust command-line packet analyzer for capture files and live traffic. In early development.
+
+> 🧾 **behind the build**<br />
+> **The friction:** finding the packets that explain a network problem.<br />
+> **The idea:** decode, filter, and export traffic from the terminal.<br />
+> **The detail:** memory budgets for packet reassembly and other cross-packet state.
+
+`Rust` · `libpcap`
+
 ### [SnapTriage](https://github.com/chiranjeevi-max/SnapTriage)
 
 An inbox for developers and maintainers triaging issues across GitHub and GitLab.
