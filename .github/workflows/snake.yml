@@ -2,6 +2,7 @@ name: Feed the café snake
 
 on:
   schedule:
+    # Daily at 00:23 UTC (05:53 IST). GitHub may delay scheduled runs.
     - cron: "23 0 * * *"
   workflow_dispatch:
   push:
