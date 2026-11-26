@@ -26,14 +26,25 @@
 
 ## ☕ on the workbench
 
+### [SlabBase](https://github.com/chiranjeevi-max/slabbase)
+
+A macOS database and form studio for linked records, custom forms, and printable reports. In development.
+
+> 🧾 **behind the build**<br />
+> **The friction:** keeping related records in separate spreadsheets.<br />
+> **The idea:** bring tables, forms, and reports into one local workspace.<br />
+> **The detail:** each workspace is an ordinary SQLite file you can open outside the app.
+
+`Rust` · `SQLite` · `Tauri` · `React`
+
 ### [Packetfin](https://github.com/chiranjeevi-max/packetfin)
 
-A Rust command-line packet analyzer for capture files and live traffic. In early development.
+A Rust command-line analyzer built to inspect untrusted packet captures. In development.
 
 > 🧾 **behind the build**<br />
 > **The friction:** finding the packets that explain a network problem.<br />
 > **The idea:** decode, filter, and export traffic from the terminal.<br />
-> **The detail:** memory budgets for packet reassembly and other cross-packet state.
+> **The detail:** separate memory budgets for packet reassembly, statistics, and two-pass analysis.
 
 `Rust` · `libpcap`
 
